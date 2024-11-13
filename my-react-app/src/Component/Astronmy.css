@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.apod-container {
+    max-width: 1300px; /* Updated width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   /* font-family: 'Arial', sans-serif;*/
+   font-family: "Bona Nova SC", serif;
+   font-style: italic;
+   font-weight: 700;
+}
+
+.apod-title {
+  /*  font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);*/
+    font-size: 4.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(211, 116, 32, 0.85);
+  
+}
+
+.image-container, .mars-image-container, .epic-images-container {
+    margin: 20px 0;
+}
+
+/*.apod-image {
+    width: 100%; /* Make image take full width *
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}*/
+.apod-image {
+    width: 90%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+.apod-description {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.description-container {
+    margin-top: 15px;
+}
+
+.selection-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the selection container */
+    flex-direction: column; /* Stack selection items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.apod-container select,
+.apod-container input[type="date"],
+.apod-container button {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    font-size: 1rem;
+}
+
+.apod-container button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.apod-container button:hover {
+    background-color: #3498db;
+}
+
+.apod-container p {
+    color: #4f5b4d;
+    font-size: 1.4rem;
+    margin: 10px 0;
+    font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.hd-link {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+ 
+}
+
+.hd-link:hover {
+    text-decoration: underline;
+}

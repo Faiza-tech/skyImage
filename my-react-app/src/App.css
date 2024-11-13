@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Rubik:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    color: #fff; /* White text color for contrast */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    padding: 20px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    position: relative;
+}
+
+.heading::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text more readable */
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.heading:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #db8975, #deb08c);
+}
